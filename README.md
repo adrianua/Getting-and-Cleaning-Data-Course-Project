@@ -25,7 +25,7 @@ R script, which processes original UCI HAR Dataset and creates tidy output file 
 This script can be downloaded and executed in your R environment (e.g with `source(run_analysis.R)` command) as long as the original Samsung data (unzipped `USI HAR Dataset` folder) is present in the working directory.
 
 ### `tidy_dataset.txt`
-tidy output file (in the _long_ form, as permitterd by Cource Project Requirements). This is UTF-8 tab delimited file, which can be imported to R by read.table("tidy_dataset.txt")
+tidy output file (in the _long_ form, as permitted by Course Project Requirements). This is UTF-8 tab delimited file, which can be imported to R by read.table("tidy_dataset.txt")
 
 ### `CodeBook.md`
 describes the variables, the data, and transformations performed to clean up the original data and create tidy_dataset.txt.
