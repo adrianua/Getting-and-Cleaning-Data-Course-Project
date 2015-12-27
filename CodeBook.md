@@ -65,7 +65,7 @@ Based on `/UCI HAR Dataset/features_info.txt` codebook, included into Original D
 This task was accomplished by using gsub() command with respective regex lines.
 
 5. From the data set in step 4, created a second, independent tidy data set with the average of each variable for each activity and each subject.
-Using `dplyr`, `X_full` was grouped by Activity and Subject fields, then for each variable `mean` function was applied. Using `tidyr` variable names were gathered into one column, and dataset was transformed to narrow tidy form.
+Using `dplyr`, `X_full` was grouped by Activity and Subject fields, then for each variable `mean` function was applied. Using `tidyr`, variable names were gathered into one column, and dataset was transformed to long tidy form.
 
 Result was exported to `tidy_dataset.txt` using write.table() with row.name=FALSE option.
 
