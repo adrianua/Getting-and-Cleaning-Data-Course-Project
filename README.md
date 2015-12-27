@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Course Project
 _based on Samsung Human Activity Recognition Using Smartphones Dataset_ 
 
-This `README` explains how all of the scripts work and how they are connected.
+This `README` explains how all of the scripts work and how files in this repository are connected.
 
 ## Original Data Source
 This Project is based on data collected from the accelerometers from the Samsung Galaxy S smartphone.
